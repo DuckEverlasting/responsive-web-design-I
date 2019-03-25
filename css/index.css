@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5 {
 
 
 .container {
-  width: 880px;
+  max-width: 880px;
   /* TB LR */
   margin: 0 auto;
 }
@@ -172,15 +172,16 @@ header .logo {
 
 .cta {
 	display: flex;
-	justify-content: space-around;
+	flex-wrap: wrap;
+	justify-content: flex-end;
 	align-items: center;
 	margin: 75px 0px;
 }
 
 .cta .cta-text {
 	display: inline-block;
-	margin-top: 20px;
-	font-size: 77px;
+	margin: 20px 80px 0px;
+	font-size: 70px;
 	text-align: center;
 }
 
@@ -249,4 +250,29 @@ footer {
 	margin: 32px 0;
 	text-align: center;
 	font-size: 14px;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* TABLET - 800px */
+@media(max-width: 800px){
+	
+	header {
+		width: 100%;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.cta {
+		margin: 55px 0px;
+		justify-content: center;
+	}
+
+	.cta img {
+		display: none;
+	}
+
+	header nav {
+		width: 90%;
+	}
 }

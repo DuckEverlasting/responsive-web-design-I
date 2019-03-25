@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5 {
 
 /* header */
 
-header {
+header .nav-bar {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
@@ -261,7 +261,7 @@ footer {
 /* TABLET - 800px */
 @media(max-width: 800px){
 	
-	header {
+	header .nav-bar {
 		width: 100%;
 		flex-direction: column-reverse;
 		align-items: center;

@@ -151,7 +151,7 @@ header nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	margin-top: 35px;
+	margin: 35px 5px 0px;
 }
 
 header nav a {

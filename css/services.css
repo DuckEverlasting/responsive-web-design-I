@@ -150,7 +150,7 @@ header nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	margin-top: 35px;
+	margin: 35px 5px 0px;
 }
 
 header nav a {
@@ -262,7 +262,6 @@ footer {
 
 	header nav {
 		width: 90%;
-		color: blue
 	}
 
 	.services-top-content {
@@ -278,6 +277,7 @@ footer {
 
 	.services-mid-content .services-mid-content-text {
 		flex-basis: 250px;
+		max-width: 94%;
 	}
 	
 	.services-mid-content button {
@@ -288,6 +288,10 @@ footer {
 	.services-bottom-content {
 		padding: 40px 3% 0px;
 		justify-content: center;
+	}
+
+	.services-bottom-content .services-bottom-content-text {
+		width: 94%;
 	}
 
 	.services-bottom-content .services-info-img {
